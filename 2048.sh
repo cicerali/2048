@@ -254,7 +254,7 @@ function addRandom() {
   local r
   local len=0
   local n
-  declare -a list
+  declare -A list
 
   if ! $initialized; then
     initialized=true
